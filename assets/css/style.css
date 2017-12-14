@@ -17,7 +17,7 @@ Text Domain: darkjoe
 * 01.0 - Universal
 * 02.0 - Header
 * 03.0 - Navigation
-* 04.0 - Services
+* 04.0 - experience
 * 05.0 - Portfolio
 * 06.0 - Testimonial
 * 07.0 - Contact
@@ -206,12 +206,12 @@ header{
 
 
 /* ///////////////////////////////////////////////////////////////////// 
-//  04 - Services
+//  04 - experience
 /////////////////////////////////////////////////////////////////////*/
 
 
 
-.services {
+.experience {
     max-width: 293px;
     height: 263px;
 }
@@ -273,12 +273,14 @@ header{
 .port figure {
 	margin: 0;
 	position: relative;
+  border-radius: 10px;
 }
 
 .port figure img {
 	max-width: 100%;
 	display: block;
 	position: relative;
+  border-radius: 10px;
 }
 
 .port figcaption {
@@ -288,6 +290,7 @@ header{
 	padding: 20px;
 	background: #111;
 	color: #e66f69;
+  border-bottom-radius: 10px;
 }
 
 .port figcaption h3 {
@@ -296,9 +299,9 @@ header{
 	color: #fff;
 }
 
-.port figcaption span:before {
+/*.port figcaption span:before {
 	content: 'by ';
-}
+}*/
 
 .port figcaption a {
 	text-align: center;
@@ -353,9 +356,12 @@ header{
 }
 
 .cs-style-3 figcaption a {
-	position: absolute;
-	bottom: 31px;
+/*	position: absolute;
+*/	bottom: 31px;
 	right: 20px;
+}
+.port-buttons {
+  padding-left: 50px;
 }
 .button{
 	background: transparent;
@@ -588,7 +594,7 @@ footer {
 
 @media all and (max-width: 1200px) and (min-width: 992px) {
 
-	.services {
+	.experience {
 		max-width: 293px;
 		height: 213px;
 	}
@@ -607,7 +613,7 @@ footer {
 
 @media all and (max-width: 991px) and (min-width: 768px) {
 
-	.services {
+	.experience {
 		max-width: 293px;
 		height: 293px;
 		margin: 0 auto;
@@ -634,7 +640,7 @@ footer {
 }
 
 @media all and (max-width: 768px) {
-	.services {
+	.experience {
 		max-width: 293px;
 		height: 293px;
 		margin: 0 auto;
