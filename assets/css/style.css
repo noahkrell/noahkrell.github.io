@@ -673,7 +673,7 @@ footer {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange }
+  50% { border-color: #e66f69 }
 }
 
 @media all and (max-width: 768px) {
