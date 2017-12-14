@@ -440,6 +440,10 @@ header{
     color: #fff;
 }
 
+#contact-email {
+  color: white;
+}
+
 .mapWrap {
     position: relative;
     min-height: 600px;
