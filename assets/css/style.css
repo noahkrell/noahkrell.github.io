@@ -215,11 +215,33 @@ header{
     max-width: 293px;
     height: 263px;
 }
+
+#experience {
+  margin-bottom: 0px;
+}
 .exp{
 	padding-top: 76px;
 }
 .service-area {
     margin: 80px 0px 40px 0px;
+}
+
+.tech-skills {
+  text-align: center;
+/*  border-right: 1px solid #e66f69;
+*/}
+
+.tech-skills li {
+  list-style: none;
+}
+
+.work-history {
+  text-align: center;
+  border-left: 1px solid #e66f69;
+}
+
+.experience-block {
+  list-style: none;
 }
 
 .service-wrap {
