@@ -209,7 +209,17 @@ header{
 //  04 - experience
 /////////////////////////////////////////////////////////////////////*/
 
+.experience-block {
+  border: 1px solid blue;
+/*  margin: 0 auto;
+*/  width: 100%;
 
+}
+
+.work-history {
+  text-align: center;
+  margin: 0 auto;
+}
 
 .experience {
     max-width: 293px;
@@ -219,6 +229,12 @@ header{
 #experience {
   margin-bottom: 0px;
 }
+.experience-list {
+  list-style: none;
+  margin-right:10px;
+  padding-right: 20px;
+}
+
 .exp{
 	padding-top: 76px;
 }
@@ -234,11 +250,6 @@ header{
 .tech-skills li {
   list-style: none;
 }
-
-.work-history {
-  text-align: center;
-/*  border-left: 1px solid #e66f69;
-*/}
 
 .experience-block {
   list-style: none;
@@ -672,6 +683,9 @@ footer {
 		margin: 0 auto;
 		margin-bottom: 30px;
 	}
+  .tech-skills {
+    margin-right:20px;
+  }
 	.pe-dj {
 		font-size: 6em;
 	}
