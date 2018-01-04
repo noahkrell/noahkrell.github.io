@@ -572,6 +572,11 @@ footer {
 /////////////////////////////////////////////////////////////////////*/
 
 
+@media all and (max-width: 540px) {
+  #header-sub-title {
+    font-size: 1.5em;
+  }
+}
 
 @media all and (min-width: 1400px) {
 	.centered p {
