@@ -129,7 +129,6 @@ header{
 	transition: 0.4s ease all;
 }
 
-
 /* ///////////////////////////////////////////////////////////////////// 
 //  03 - Navigation 
 /////////////////////////////////////////////////////////////////////*/
@@ -477,16 +476,29 @@ header{
   color: white;
 }
 
+#github-icon {
+  color: white;
+}
+
+#li-icon {
+  color: white;
+}
+
+#github-icon:hover {
+    color: #e66f69;
+}
+#li-icon:hover {
+    color: #e66f69;
+}
+#contact-email:hover {
+    color: #e66f69;
+}
+
 .mapWrap {
     position: relative;
     min-height: 600px;
 }
-#googleMap {
-    position: absolute !important;
-    top: 0;
-    left: 0;
-    height: 100%;
-}
+
 #contact-area {
     background: url(../images/parallax.jpg);
     width: 100%;
