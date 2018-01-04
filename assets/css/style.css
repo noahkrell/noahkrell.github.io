@@ -481,12 +481,7 @@ header{
     position: relative;
     min-height: 600px;
 }
-#googleMap {
-    position: absolute !important;
-    top: 0;
-    left: 0;
-    height: 100%;
-}
+
 #contact-area {
     background: url(../images/parallax.jpg);
     width: 100%;
