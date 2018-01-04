@@ -129,7 +129,6 @@ header{
 	transition: 0.4s ease all;
 }
 
-
 /* ///////////////////////////////////////////////////////////////////// 
 //  03 - Navigation 
 /////////////////////////////////////////////////////////////////////*/
@@ -475,6 +474,24 @@ header{
 
 #contact-email {
   color: white;
+}
+
+#github-icon {
+  color: white;
+}
+
+#li-icon {
+  color: white;
+}
+
+#github-icon:hover {
+    color: #e66f69;
+}
+#li-icon:hover {
+    color: #e66f69;
+}
+#contact-email:hover {
+    color: #e66f69;
 }
 
 .mapWrap {
