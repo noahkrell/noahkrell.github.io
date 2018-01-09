@@ -338,6 +338,12 @@ header{
 	color: #fff;
 }
 
+@media all and (max-width: 1200px) and (min-width: 992px) {
+  .byline {
+    display: none;
+  }
+}
+
 /*.port figcaption span:before {
 	content: 'by ';
 }*/
