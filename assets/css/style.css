@@ -342,7 +342,13 @@ header{
   .byline {
     display: none;
   }
+
+  #rp-title {
+    font-size: 1.5em;
+  }
 }
+
+
 
 /*.port figcaption span:before {
 	content: 'by ';
