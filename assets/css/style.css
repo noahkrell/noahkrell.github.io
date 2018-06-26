@@ -354,6 +354,7 @@ header {
   #rp-title {
     font-size: 1.5em;
   }
+
 }
 
 @media all and (max-width: 992px) and (min-width: 768px) {
@@ -619,6 +620,13 @@ footer {
   }
 }
 
+@media all and (min-width: 1200px) {
+  #box6 {
+    bottom: 344px;
+  }
+
+}
+
 @media all and (max-width: 1200px) and (min-width: 992px) {
   .experience {
     max-width: 293px;
@@ -635,12 +643,18 @@ footer {
     font-size: 11px;
     padding: 0px 35px;
   }
+
+  #box6 {
+    bottom: 305px;
+  }
+
 }
 
 @media all and (min-width: 992px) {
   .work-history {
     border-left: 1px solid #e66f69;
   }
+
 }
 
 @media all and (max-width: 991px) {
@@ -664,6 +678,9 @@ footer {
   }
   .pe-dj {
     font-size: 6em;
+  }
+  #box6 {
+    bottom: 20px;
   }
 }
 
